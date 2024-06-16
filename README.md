@@ -28,21 +28,17 @@ To run this application, you need to follow these steps:
 
 ## Training the Emotion Recognition Model
 
-The emotion recognition model used in this project can be trained using the Kaggle dataset. To train the model:
+The emotion recognition model used in this project can be trained using the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013). To train the model:
 
-1. Go to the Kaggle dataset [Emotion Detection - FER](https://www.kaggle.com/ananthu017/emotion-detection-fer) page.
+1. Go to the Kaggle notebook [Train Emotions](https://www.kaggle.com/code/ngcduyh/train-emotions).
 
-2. Download the dataset and place it in the `data` directory of this project.
-
-3. Navigate to the `train_emotion_model.ipynb` notebook.
-
-4. Follow the instructions in the notebook to train the emotion recognition model.
+2. Follow the instructions in the notebook to train the emotion recognition model.
 
 ## Downloading the Pre-trained Emotion Recognition Model
 
 You can download the pre-trained emotion recognition model from the following link:
 
-[Download Emotion Recognition Model](https://www.kaggle.com/example/emotion-recognition-model)
+[Download Emotion Recognition Model](https://www.kaggle.com/code/ngcduyh/train-emotions/output)
 
 ## Usage
 
@@ -61,12 +57,3 @@ You can download the pre-trained emotion recognition model from the following li
 - TensorFlow
 - Spotipy
 - Streamlit
-
-## Acknowledgments
-
-The emotion detection model used in this project is based on the following research paper:
-[Facial Expression Recognition Using Convolutional Neural Networks: State of the Art](https://arxiv.org/abs/1612.02903)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
