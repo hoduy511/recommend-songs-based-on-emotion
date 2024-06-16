@@ -23,7 +23,7 @@ To run this application, you need to follow these steps:
 
 4. Run the application:
     ```bash
-    streamlit run emotion_detection.py
+    streamlit run app.py
     ```
 
 ## Training the Emotion Recognition Model
